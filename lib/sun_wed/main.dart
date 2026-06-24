@@ -39,3 +39,5 @@ class MyApp extends StatelessWidget {
 /// reverse: Create new commit with reversed changes
 /// reset: Delete commits
 /// branch: Create new copy of your current branch
+/// switch: checkout branch in this repo
+/// merge: Move commits from one branch to another
