@@ -21,7 +21,7 @@ class MCalculatorButton extends StatelessWidget {
     return Expanded(
       flex: flex,
       child: Container(
-        margin: EdgeInsets.symmetric(horizontal: 8),
+        margin: EdgeInsets.symmetric(horizontal: 20, vertical: 2),
         child: ElevatedButton(
             style: ElevatedButton.styleFrom(
                 backgroundColor: backgroundColor,
@@ -29,6 +29,7 @@ class MCalculatorButton extends StatelessWidget {
                     borderRadius: BorderRadius.circular(16))),
             onPressed: () {
               onClick(text);
+              print("User clicked $text");
             },
             child: Text(
               text,

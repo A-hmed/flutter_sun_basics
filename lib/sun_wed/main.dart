@@ -41,3 +41,4 @@ class MyApp extends StatelessWidget {
 /// pull: Downloads changes from remote repo
 /// update: same as pull
 /// fetch: Downloads changes from remote repo
+/// Pull Request: Create merge request on git hub
