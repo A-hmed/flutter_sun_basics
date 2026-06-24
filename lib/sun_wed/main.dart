@@ -37,3 +37,5 @@ class MyApp extends StatelessWidget {
 /// branch: Create new copy of your current branch
 /// switch: checkout branch in this repo
 /// merge: Move commits from one branch to another
+/// push: Uploads recent branch changes
+/// pull: Downloads changes from remote repo
