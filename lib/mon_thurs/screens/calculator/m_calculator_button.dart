@@ -34,7 +34,7 @@ class MCalculatorButton extends StatelessWidget {
             child: Text(
               text,
               style: TextStyle(
-                  color: textColor, fontSize: 32, fontWeight: FontWeight.bold),
+                  color: textColor, fontSize: 38, fontWeight: FontWeight.bold, backgroundColor: Colors.blue),
             )),
       ),
     );
