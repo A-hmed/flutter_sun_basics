@@ -39,3 +39,4 @@ class MyApp extends StatelessWidget {
 /// merge: Move commits from one branch to another
 /// push: Uploads recent branch changes
 /// pull: Downloads changes from remote repo
+/// update: same as pull
