@@ -7,10 +7,6 @@ import 'package:flutter_basics_c19/sun_wed/screens/xo/s_pick_player_screen.dart'
 import 'package:flutter_basics_c19/sun_wed/screens/xo/s_xo_screen.dart';
 
 void main() {
-  final x;
-  x = 2;
-  const y =32;
-
   runApp(MyApp());
 }
 
