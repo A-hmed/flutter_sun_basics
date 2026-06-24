@@ -36,3 +36,6 @@ class MyApp extends StatelessWidget {
 /// Git commands:
 /// init: Create empty repository (with master branch)
 /// commit: Save changes in project
+/// reverse: Create new commit with reversed changes
+/// reset: Delete commits
+/// branch: Create new copy of your current branch

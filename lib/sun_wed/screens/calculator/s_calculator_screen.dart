@@ -188,6 +188,7 @@ class _SCalculatorScreenState extends State {
     if (savedOperator.isEmpty) {
       lhs = result;
     } else {
+      if(lhs.isEmpty || result.isEmpty) return;
       lhs = calculate(lhs, savedOperator, result);
     }
     savedOperator = operator;
